@@ -14,3 +14,6 @@ const text = document.createTextNode(" - the premier source for web development 
 
 const linkPara = document.querySelector("p");
 linkPara.appendChild(text);
+
+sect.appendChild(linkPara);
+sect.removeChild(linkPara);
